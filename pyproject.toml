@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "portainer-deploy"
+version = "0.1.0"
+description = "Docker image used to deploy a Docker stack using the Portainer API."
+authors = ["Romain Gaillegue <romain@runlevel.fr>"]
+readme = 'README.md'
+homepage = "https://github.com/runlevel/portainer-deploy"
+
+[tool.poetry.dependencies]
+python = "~3.9"
+requests = "^2.32"
+j2cli = "^0.3"
+
+[tool.poetry.scripts]
+swarm_deploy = 'portainer-deploy:main'
