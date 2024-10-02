@@ -23,7 +23,6 @@ import urllib3
 import sys
 import requests
 
-
 class PortainerSwarmDeployer:
     """Class to handle the deployment of compose files to Docker Swarm using the Portainer API."""
 
